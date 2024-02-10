@@ -12,7 +12,7 @@ def lmQuery(preprompt, prompt):
         { "role": "system", "content": preprompt },
         { "role": "user", "content": prompt }
     ], 
-    "temperature": 0.5, 
+    "temperature": 0.7, 
     "max_tokens": 5,
     "stream": False
     }
@@ -21,3 +21,15 @@ def lmQuery(preprompt, prompt):
     return content.group(1)
     
 (questionStatement, answers) = csv_parser.csvRead()
+
+preprompt = "Pick the most suitable answer from the answers given below the question"
+def getPrompt(i):
+    prompt = questionStatement[i]
+    for key in answers[i]:
+        prompt += f"\n{key}: {answers[i][key]}"
+    return prompt
+
+# for i in range(5, 8):
+#     prompt = getPrompt(i)
+#     print(prompt)
+#     print(lmQuery(preprompt, prompt))
