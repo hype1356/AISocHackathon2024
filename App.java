@@ -47,7 +47,7 @@ public class App
                     }
                 }
             } catch (NullPointerException e) {
-                break;
+                //break;
             }
         } catch (IOException e) {
             // TODO Auto-generated catch block
