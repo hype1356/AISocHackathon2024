@@ -2,6 +2,7 @@ import requests
 import re
 import csv_parser
 import csv_output
+import prompt_augmenter
 
 #URL for server with LM
 url = "http://10.147.17.182:6420/v1/chat/completions"
@@ -28,25 +29,27 @@ def getPrompt(i):
     prompt = questionStatement[i]
     for key in answers[i]:
         prompt += f"\n{key}: {answers[i][key]}"
+    prompt += " [CONTEXT] " + prompt_augmenter.get_context(questionStatement[i], "./contextData/output")
     return prompt
 
 
 output = []#['C', 'C', 'A', 'C', 'A', 'C', 'A', 'A', 'C', 'A', 'C', 'A', 'A', 'A', 'A', 'A', 'T', 'A', 'A', 'A', 'B', 'A', 'C', 'A', 'T', 'A', 'A', 'B', 'A', '(', 'B', 'A', 'B', 'A', 'A', 'A', 'C', 'B', 'T', 'T', 'T', 'B', 'A', 'A', 'B', 'A', 'A', 'A', 'C', 'C', 'A', 'B', 'A', 'C', 'B', 'C', 'A', 'A', 'B', 'B', 'C', 'B', 'A', 'A', 'A', 'B', 'C', 'C', 'C', 'B', 'C', 'A', 'C', 'A', 'C', 'A', 'A', 'A', 'C', 'A', 'C', 'A', 'A', 'T', 'A', 'B', 'A', 'C', 'T', 'B', 'A', 'A', 'C', 'A', 'B', 'A', 'B', 'B', 'C', 'A']
 #           ['C', 'C', 'A', 'C', 'A', 'C', 'A', 'A', 'C', 'A', 'C', 'A', 'A', 'A', 'A', 'A', 'B', 'A', 'A', 'A', 'B', 'A', 'C', 'A', 'A', 'A', 'A', 'B', 'A', 'A', 'B', 'A', 'B', 'A', 'A', 'A', 'C', 'B', 'A', 'B', 'B', 'B', 'A', 'A', 'B', 'A', 'A', 'A', 'C', 'C', 'A', 'B', 'A', 'C', 'B', 'C', 'A', 'A', 'B', 'B', 'C', 'B', 'A', 'A', 'A', 'B', 'C', 'C', 'C', 'B', 'C', 'A', 'C', 'A', 'C', 'A', 'A', 'A', 'C', 'A', 'C', 'A', 'A', 'A', 'A', 'B', 'A', 'C', 'A', 'B', 'A', 'A', 'C', 'A', 'B', 'A', 'B', 'B', 'C', 'A']
-for i in range(0, 100):
+for i in range(0, 5):
     prompt = getPrompt(i)
+    output.append(lmQuery(preprompt, prompt, 0))
     # print(prompt)
-    set = False #boolean if a char has been appended to output for this question
-    for temp in range(0, 11, 1): #for loop to increment between 0 and 1.0 for temperature
-        query = lmQuery(preprompt, prompt, temp / 10)[0]
-        if("ABC".find(query) != -1): #if result from query is an A B or C
-           output.append(query)
-           set = True
-           break
-    if(not set):
-        output.append('A')
+    # set = False #boolean if a char has been appended to output for this question
+    # for temp in range(0, 11, 1): #for loop to increment between 0 and 1.0 for temperature
+    #     query = lmQuery(preprompt, prompt, temp / 10)[0]
+    #     if("ABC".find(query) != -1): #if result from query is an A B or C
+    #        output.append(query)
+    #        set = True
+    #        break
+    # if(not set):
+    #     output.append('A')
     
 
 print(output)
 print(len(output))
-csv_output.writeCSV(output)
+# csv_output.writeCSV(output)
