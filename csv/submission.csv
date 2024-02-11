@@ -1,4 +1,4 @@
-﻿id,question,y
+id,question,y
 0,"What type of microphone must be installed to meet the recording requirements of paragraph (a)(2) of 14 CFR 23.1457?
 Options:
 A. Handheld microphone
@@ -13,7 +13,7 @@ C. Orange",C
 Options:
 A. The cockpit voice recorder and flight data recorder must be installed together in the same container.
 B. The cockpit voice recorder must remain powered for at least 20 minutes after crash impact.
-C. The recorder container must have an underwater locating device if required by the operating rules",C
+C. The recorder container must have an underwater locating device if required by the operating rules",A
 3,"Which of the following sources need to be recorded on a separate channel according to 14 CFR 23.1457?
 Options:
 A. Second pilot station handheld microphone
@@ -28,7 +28,7 @@ C. 10 days, with no other extenuating circumstances.",A
 Options:
 A. 14 CFR part 91.
 B. 14 CFR part 121.
-C. ICAO annex 1, chapter 2.",C
+C. ICAO annex 1, chapter 2.",A
 6,"If a four-engine air carrier airplane is dispatched from an airport that is below landing minimums, what is the maximum distance that a departure alternate airport may be located from the departure airport?
 Options:
 A. Not more than 2 hours at normal cruise speed in still air with one engine inoperative.
@@ -53,7 +53,7 @@ C. Not more than 1 hour.",A
 Options:
 A. may continue to the planned destination if this is considered as safe as landing at the nearest suitable airport.
 B. may continue to the planned destination if approved by the company aircraft dispatcher.
-C. must land at the nearest suitable airport, in point of time, at which a safe landing can be made.",C
+C. must land at the nearest suitable airport, in point of time, at which a safe landing can be made.",A
 11,"An aircraft dispatcher declares an emergency for a flight and a deviation results. A written report shall be sent through the air carriers operations manager by the
 Options:
 A. dispatcher to the FAA Administrator within 10 days of the event.
@@ -123,7 +123,7 @@ C. 3/4 SM.",A
 Options:
 A. The most direct route to the filed alternate airport.
 B. The route filed in the flight plan.
-C. An off-airway route to the point of departure.",C
+C. An off-airway route to the point of departure.",A
 25,"KFTW UA/OV DFW/TM 1645/FL100/TP PA30/SK SCT031-TOP043/BKN060-TOP085/OVC097-TOPUNKN/WX FV00SM RA/TA 07. This pilot report to Fort Worth (KFTW) indicates
 Options:
 A. the aircraft is in light rain.
@@ -142,13 +142,13 @@ C. Absolute upper limit of cloud formation.",B
 28,"If squalls are reported at the destination airport, what wind conditions exist?
 Options:
 A. Sudden increases in wind speed of at least 15 knots to a sustained wind speed of 20 knots, lasting for at least 1 minute.
-B. Rapid variation in wind direction of at least 20Â° and changes in speed of at least 10 knots between peaks and lulls.
+B. Rapid variation in wind direction of at least 20° and changes in speed of at least 10 knots between peaks and lulls.
 C. A sudden increase in wind speed of at least 16 knots, the speed rising to 22 knots or more for 1 minute or longer.",A
 29,"(Refer to FAA-CT-8080-7D, Appendix 2, Figure 149.) What will be the wind and temperature trend for an SAT ELP TUS flight at 16,000 feet?
 Options:
 A. Temperature decrease slightly.
 B. Wind direction shift from southwest to east.
-C. Windspeed decrease.",A
+C. Windspeed decrease.",Z
 30,"Even a small amount of frost, ice, or snow may
 Options:
 A. increase takeoff performance.
@@ -198,7 +198,7 @@ C. Small amounts of alcohol in the human system increase judgment and decision-m
 Options:
 A. 19,800 feet.
 B. 22,200 feet.
-C. 21,600 feet.",C
+C. 21,600 feet.",A
 40,"An airport may not be qualified for alternate use if
 Options:
 A. the airport has AWOS-3 weather reporting.
@@ -223,17 +223,17 @@ C. must mark errors as disqualifying.",A
 Options:
 A. 2 hours.
 B. necessary to reach the closest suitable alternate crew base airport.
-C. necessary to land at next destination airport or alternate airport.",B
+C. necessary to land at next destination airport or alternate airport.",C
 45,"(Refer to FAA-CT-8080-7D, Appendix 2, Figure 459.) For a supplemental charter, a still air range of 2,250 NM is required. The payload for this non-stop trip is
 Options:
 A. 5,100 pounds.
 B. 5,900 pounds.
-C. 6,100 pounds.",A
-46,"(Refer to FAA-CT-8080-7D, Appendix 2, Figures 273 and 475.) With a reported temperature of 32Â°C, and a weight of 58,000 pounds, the second segment takeoff gross climb gradient is
+C. 6,100 pounds.",Z
+46,"(Refer to FAA-CT-8080-7D, Appendix 2, Figures 273 and 475.) With a reported temperature of 32°C, and a weight of 58,000 pounds, the second segment takeoff gross climb gradient is
 Options:
 A. 0.057%.
 B. 0.062%.
-C. 0.034%.",B
+C. 0.034%.",A
 47,"Each person operating an aircraft equipped with ADS-B Out must operate it in the transmit mode
 Options:
 A. at all times unless otherwise authorized by the FAA or directed by ATC.
@@ -248,7 +248,7 @@ C. To minimize human error",C
 Options:
 A. The skills necessary for all aviation personnel
 B. The complexities of aircraft operations
-C. The skills necessary for various jobs in aviation",C
+C. The skills necessary for various jobs in aviation",A
 50,"Why is licensing important in aviation?
 Options:
 A. It ensures efficient and safe operations
@@ -273,7 +273,7 @@ C. To contribute to the general health of flight crews and controllers",C
 Options:
 A. Flight attendants
 B. Aeronautical station operators
-C. Flight engineers",B
+C. Flight engineers",A
 55,"What is the main objective of ICAO in the field of personnel licensing?
 Options:
 A. To improve safety in civil aviation operations
@@ -293,7 +293,7 @@ C. 3 hours",A
 Options:
 A. To maintain international aerodromes
 B. To issue warnings of hazardous weather conditions
-C. To prepare weather forecasts for aircraft in flight",C
+C. To prepare weather forecasts for aircraft in flight",A
 59,"What types of weather conditions do meteorological watch offices issue warnings for?
 Options:
 A. Snowstorms and wind shear
@@ -303,7 +303,7 @@ C. Upper winds and upper-air temperatures",A
 Options:
 A. Using air-ground data link communications
 B. By meteorological offices concerned
-C. Through automated observing systems",C
+C. Through automated observing systems",A
 61,"What is the purpose of the World Area Forecast System (WAFS)?
 Options:
 A. To establish an international airways volcano watch (IAVW)
@@ -323,7 +323,7 @@ C. Only with human intervention",A
 Options:
 A. Any weather condition other than those permitting visual flight
 B. Clear skies with unlimited visibility
-C. Cloudy skies with limited visibility",C
+C. Cloudy skies with limited visibility",A
 65,"When can an aircraft be flown under visual flight rules (VFR)?
 Options:
 A. Only in specific portions of the airspace and at low altitudes
@@ -353,7 +353,7 @@ C. Commercial flights crossing international borders",B
 Options:
 A. Aircraft on the right have the right of way over other aircraft
 B. Aeroplanes must give way to airships, gliders, and balloons
-C. All of the above",C
+C. All of the above",A
 71,"What are the special recommendations formulated by the Council of ICAO regarding the interceptions of civil aircraft?
 Options:
 A. Implementing special recommendations contained in Attachment A to Annex 2
@@ -363,7 +363,7 @@ C. Maintaining air traffic control informed about the aircraft's position",A
 Options:
 A. One
 B. Two
-C. Three",C
+C. Three",A
 73,"Which series of charts covers the largest area for a given amount of paper?
 Options:
 A. Aeronautical Navigation Chart - ICAO Small Scale
@@ -378,7 +378,7 @@ C. To facilitate the transition from en-route phase to final approach phase.",C
 Options:
 A. When more detail is required about the area around the aerodrome of intended landing.
 B. When complying with departure and arrival procedures.
-C. When flights cross extensive oceanic and sparsely settled areas.",B
+C. When flights cross extensive oceanic and sparsely settled areas.",A
 76,"What type of information does the Instrument Approach Chart - ICAO provide?
 Options:
 A. Graphic presentation of instrument approach and missed approach procedures.
@@ -413,7 +413,7 @@ C. When measuring weight",A
 Options:
 A. Temporary non-SI units
 B. A new definition of the metre
-C. A new definition of the litre",C
+C. A new definition of the litre",A
 83,"When was the first edition of the ICAO Annex 7 issued?
 Options:
 A. 1946
@@ -428,17 +428,17 @@ C. Definitions related to joint operating organizations",A
 Options:
 A. An additional fee
 B. An English translation if issued in a different language
-C. A photograph of the aircraft",C
+C. A photograph of the aircraft",Z
 86,"What are the standards described in the Annex for regarding the use of letters, numbers, and other symbols in the nationality and registration marks?
 Options:
 A. They are determined by the ITU
 B. They are set by the ICAO Contracting States
-C. They are not specified in the Annex",B
+C. They are not specified in the Annex",A
 87,"Where should the identification plate with the aircraft's nationality or common mark and registration mark be affixed?
 Options:
 A. Inside the cockpit
 B. In a prominent position on the main entrance
-C. On the tail of the aircraft",B
+C. On the tail of the aircraft",C
 88,"According to the ICAO Annex 7, how many amendments have been made to the Annex since its first adoption?
 Options:
 A. Two
@@ -463,7 +463,7 @@ C. Pilots and operators prefer national rules and regulations",A
 Options:
 A. Landing gear requirements for twin-engined aircraft
 B. Fuel consumption of twin-engined aircraft
-C. Safety operations over water for twin-engined aircraft",C
+C. Safety operations over water for twin-engined aircraft",A
 93,"What is the main responsibility of the pilot-in-command according to Annex 6?
 Options:
 A. Supervising flight operations
@@ -473,7 +473,7 @@ C. Ensuring flight crew rest periods",A
 Options:
 A. Operator's approval of aircraft type
 B. Maintenance and mass and load distribution requirements
-C. Take-off and landing speeds under various conditions",C
+C. Take-off and landing speeds under various conditions",A
 95,"What does Part II of Annex 6 specifically address?
 Options:
 A. International commercial air transport
@@ -499,3 +499,798 @@ Options:
 A. Annex 1
 B. Annex 4
 C. Annex 8",A
+100,"According to Annex 8, what is the purpose of the broad standards for recognition of Certificates of Airworthiness?
+Options:
+A. To replace national regulations
+B. To protect other aircraft, third parties, and property
+C. To establish contact with national airworthiness authorities",A
+101,"What does the term 'anticipated operating conditions' refer to in Annex 8?
+Options:
+A. The eligibility of the aircraft for certain operations
+B. The weather conditions in which an aircraft is expected to perform
+C. The conditions which occur infrequently and render aircraft operations impracticable",A
+102,"What information must the State of Registry transmit to the State of Design under the provisions related to continuing airworthiness of aircraft?
+Options:
+A. Generally applicable information for the safe operation of the aircraft
+B. Continuing airworthiness information originated by the State of Registry
+C. All of the above",C
+103,"What technical standards are currently limited to in terms of the certification of aeroplanes?
+Options:
+A. Single-engined aeroplanes
+B. Multi-engined aeroplanes with a maximum certificated takeoff mass of over 5700 kg
+C. Helicopters",C
+104,"What are the requirements for detailed design and construction under Annex 8?
+Options:
+A. Demonstrated functioning of moving parts essential to safe operation
+B. Conforming materials used in aeroplane parts
+C. All of the above",A
+105,"What considerations are given to the design features affecting the ability of the flight crew to maintain controlled flight?
+Options:
+A. Minimization of incorrect operation of controls
+B. Clear and undistorted field of vision for safe operation
+C. All of the above",A
+106,"What security features have been included in aircraft design following recent events of hijacking and terrorist acts?
+Options:
+A. Identification of least-risk bomb location
+B. Improved protection of the aircraft
+C. Special features in aircraft systems",C
+107,"The Aeronautical Fixed Telecommunications Network (AFTN) is a worldwide network designed for what purpose?
+Options:
+A. Providing ground-ground communication between airports  
+B. Providing air-ground communication between aircraft and points on the ground  
+C. Routing messages for the safe conduct of flight  
+D. Organizing ground points required for flight operations  
+E. Meeting the specific requirements of international civil aviation",A
+108,"What is the purpose of the operational flight information service (OFIS) broadcasts?
+Options:
+A. To provide information on significant meteorological (SIGMET
+B. To assist in establishing identification for military aircraft  
+C. To provide information on weather conditions for VFR flights  
+D. To alert rescue coordination centres in case of emergencies  
+E. To provide automated terminal information service (ATIS",A
+109,"What is the purpose of obstacle limitation surfaces in airports?
+Options:
+A. To define airspace requirements for aircraft approach and departure  
+B. To ensure the continued growth and existence of the airport  
+C. To prevent obstacles from obstructing the airspace of the airport 
+D. To protect the airport from becoming unusable  
+E. To establish dimensions for runway types",C
+110,"What is the prime objective of air traffic services as defined in the Annex?
+Options:
+A. To provide flight information and alerting services  
+B. To prevent collisions between aircraft 
+C. To expedit and maintain an orderly flow of air traffic  
+D. To provide advice and information for safe and efficient flights  
+E. To establish flight information centres and air traffic control units",A
+111,"According to Annex 15, what is the content of aeronautical information provided for pre-flight planning purposes?
+Options:
+A. Important post-flight information provided by aircrews  
+B. Information related to airports and their facilities  
+C. Amendments to airline operations manuals or other documents  
+D. Information concerning changes in facilities, services, or procedures  
+E. Regulations concerning entry into and transit of airspace",A
+112,"According to Annex 10, which volume covers digital data communication systems for international aircraft operations?
+Options:
+A. Volume I  
+B. Volume II  
+C. Volume III  
+D. Volume IV  
+E. Volume V",A
+113,"What type of service is provided to IFR flights operating in controlled airspace?
+Options:
+A. Flight information service  
+B. Air traffic control service 
+C. Separation service  
+D. Known traffic information  
+E. Coordination between ATC units",B
+114,"What has Annex 16 been further developed to accommodate?
+Options:
+A. New noise evaluation measures  
+B. New engine emissions limitations  
+C. New noise certification procedures  
+D. New environmental concerns and challenges 
+E. New aircraft classifications",A
+115,"Which document provides officials with a summary of all security-related Standards, Recommended Practices, and procedures?
+Options:
+A. Annex 18  
+B. Security Manual  
+C. PANS documents  
+D. Technical Instructions  
+E. Universal Security Audit Programme",A
+116,"What is the basis for granting noise certification to an aircraft?
+Options:
+A. The State of Registry  
+B. The noise evaluation measure  
+C. The maximum noise levels at measurement points  
+D. The compliance with applicable Standards 
+E. The duration of noise emissions",D
+117,"Which type of flight follows instrument flight rules (IFR)?
+Options:
+A. Flights that operate in severe weather conditions  
+B. Flights that operate in controlled airspace  
+C. Flights that operate in uncontrolled airspace  
+D. Flights that rely on visual navigation  
+E. Flights that operate during peak periods",B
+118,"What does Chapter 4 of Annex 12 specify?
+Options:
+A. Equipment requirements for rescue units  
+B. Necessary information for inclusion in SAR operation plans  
+C. Training requirements for rescue units  
+D. Collation and publication of SAR operation information  
+E. All of the above",A
+119,"What is the responsibility of the Rescue Coordination Centre (RCC) during the ""Distress Phase""?
+Options:
+A. Assisting the aircraft and determining its location 
+B. Collecting and evaluating reports and data pertaining to the subject aircraft  
+C. Activating appropriate SAR units and initiating further action  
+D. Coordinating the execution of the search and rescue operation  
+E. Informing the aircraft operator, State of Registry, and accident investigation authorities",A
+120,"Which chapter of Annex 13 addresses incident reporting systems?
+Options:
+A. Chapter 8  
+B. Chapter 6  
+C. Chapter 7 
+D. Chapter 13  
+E. Chapter 14",D
+121,"What did the ICAO Assembly resolution adopted in 1971 place responsibility on ICAO for?
+Options:
+A. Controlling aircraft noise  
+B. Controlling aircraft engine emissions  
+C. Guiding the development of international civil aviation  
+D. Both controlling aircraft noise and guiding the development of international civil aviation  
+E. Both controlling aircraft engine emissions and guiding the development of international civil aviation",A
+122,"What are the factors affecting aircraft noise?
+Options:
+A. Power of the engines and atmosphere conditions  
+B. Power of the engines and number of jet aircraft  
+C. Speed of the aircraft and atmospheric conditions  
+D. Speed of the aircraft and number of jet aircraft  
+E. Power of the engines and aircraft altitude",A
+123,"What is the purpose of the alerting service provided by air traffic control?
+Options:
+A. To set in motion appropriate rescue and emergency organizations  
+B. To provide communication between ATS units and other essential offices  
+C. To provide information to aircraft known or believed to be subject to unlawful interference  
+D. To ensure direct, rapid and continuous communication between air-ground stations  
+E. To record important information transmitted over air-ground radio channels",A
+124,"Which volume of Annex 10 contains SARPs and guidance material for secondary surveillance radar (SSR) and airborne collision avoidance systems (ACAS)?
+Options:
+A. Volume I  
+B. Volume II  
+C. Volume III  
+D. Volume IV 
+E. Volume V",A
+125,"When is the ""Distress Phase"" declared?
+Options:
+A. When an aircraft is in distress 
+B. When radio contact with an aircraft is lost and cannot be re-established  
+C. When an aircraft fails to arrive at its destination  
+D. When a Rescue Coordination Centre (RCC
+E. When SAR units are alerted",B
+126,"According to Annex 11, what is the recommended form of communication between ATS units?
+Options:
+A. Two-way radiotelephony communication  
+B. Exchange of printed messages  
+C. Direct voice communication 
+D. Recording of communications  
+E. Both A and B",A
+127,"What is covered in Chapter 3 of Annex 12?
+Options:
+A. Preparatory measures for SAR operations  
+B. Equipment requirements for rescue units  
+C. Cooperation between SAR services of neighbouring states 
+D. Organization and cooperative principles for effective SAR operations  
+E. Collation and publication of information needed by SAR services",A
+128,"According to the passage, what is the objective of most specifications in aviation?
+Options:
+A. To improve the safety of equipment installed at airports  
+B. To provide accurate information on airport facilities  
+C. To standardize the location and light characteristics of visual aids 
+D. To reduce the hazard posed by equipment near runways  
+E. To eliminate features of airports that are attractive to birds",A
+129,"What does Annex 17 encourage States to have in their air transport agreements?
+Options:
+A. A security clause 
+B. A safety clause  
+C. An enforcement clause  
+D. A surveillance clause  
+E. A multilateral clause",E
+130,"What is the purpose of Annex 14, Volume I?
+Options:
+A. To improve the safety of equipment installed at airports  
+B. To specify the construction and siting of equipment near runways  
+C. To provide guidance for pilots to find their way in heavy traffic airports  
+D. To set forth requirements for the rescue and fire fighting service at airports  
+E. To improve the safety, regularity, and efficiency of aviation through the use of visual aids and maintenance of airports",A
+131,"According to Annex 10, what are three essential elements of international civil aviation?
+Options:
+A. Flight operations, navigation, radar systems  
+B. Aeronautical communications, navigation, surveillance 
+C. Radio navigation aids, surveillance radar systems, flight operations  
+D. Communication procedures, navigation systems, flight operations  
+E. Radio frequency utilization, navigation systems, surveillance radar systems",A
+132,"What is the purpose of SAR services?
+Options:
+A. To establish and maintain search and rescue routes  
+B. To manage and provide international air traffic control services  
+C. To assist aircraft in distress and in need of help 
+D. To ensure safe and orderly flow of international air traffic  
+E. To provide assistance in the event of disruptions of air traffic services",C
+133,"What is the purpose of the regulated system AIRAC mentioned in Annex 15?
+Options:
+A. To distribute specific types of aeronautical information  
+B. To provide pre-flight information at each aerodrome/heliport  
+C. To ensure the timely provision of quality aeronautical information  
+D. To keep airline operations manuals and databases up to date 
+E. To anticipate changes to facilities, services, and procedures",A
+134,"Which activity in international civil aviation may not be considered glamorous?
+Options:
+A. Aircraft noise control  
+B. Aircraft engine emissions control  
+C. Provision of aeronautical information services 
+D. Air Traffic Control  
+E. Aviation industry development",E
+135,"What is the Council's special procedure for updating the Technical Instructions?
+Options:
+A. Frequent amendment using the Annex amendment process  
+B. Recommendations from the panel of experts  
+C. Revision and reissuance to keep up with new products and technology  
+D. Alignment with the United Nations Committee of Experts on the Transport of Dangerous Goods  
+E. It is not specified in the text",A
+136,"According to Annex 11, what do air traffic services comprise?
+Options:
+A. Control of air traffic  
+B. Flight information and alerting services  
+C. Ground support facilities  
+D. Safety and efficient operation of air traffic  
+E. All of the above",A
+137,"What chapter of Annex 11 specifies the requirements for coordination between civil and military authorities?
+Options:
+A. Chapter 3  
+B. Chapter 5  
+C. Chapter 7  
+D. Chapter 9  
+E. It is not specified in Annex 11.",A
+138,"What is the responsibility of the Rescue Coordination Centre (RCC) during the ""Uncertainty Phase""?
+Options:
+A. Assisting the aircraft and determining its location  
+B. Collecting and evaluating reports and data pertaining to the subject aircraft 
+C. Activating appropriate SAR units and initiating further action  
+D. Coordinating the execution of the search and rescue operation  
+E. Informing the aircraft operator, State of Registry, and accident investigation authorities",A
+139,"According to the passage, what is the purpose of revising and reissuing the Technical Instructions regularly?
+Options:
+A. To conform to the regulations of the International Atomic Energy Agency  
+B. To align with the recommendations of the United Nations Committee of Experts on the Transport of Dangerous Goods  
+C. To keep up with new products and advances in technology 
+D. To ensure safe and smooth cargo transfer between different modes of transport  
+E. To meet the ICAO requirements for dangerous goods",A
+140,"What is the purpose of Annex 17 to the Convention on International Civil Aviation?
+Options:
+A. To ensure maximum compatibility between civil aviation and the environment  
+B. To safeguard international civil aviation against acts of unlawful interference 
+C. To establish administrative and coordination aspects of civil aviation security  
+D. To outline the responsibilities of airline operators in protecting their passengers and assets  
+E. To provide specifications for aviation security worldwide",A
+141,"What is the purpose of the Attachment to Annex 17?
+Options:
+A. To outline the responsibilities of States in implementing national security programmes  
+B. To provide officials with a verbatim extract of Annex 17 
+C. To specify the measures for the safety of passengers and crew of unlawfully diverted aircraft  
+D. To address challenges posed by the events of 11 September 2001  
+E. To establish international cooperation in threat information sharing",A
+142,"According to Annex 12, what should be done to facilitate accident investigation during SAR operations?
+Options:
+A. Include accident investigation personnel in the rescue units 
+B. Disseminate information needed for the entry of rescue units into other territories  
+C. Prepare detailed plans of operation for SAR operations  
+D. Remove aircraft wreckage from the accident scene  
+E. Train rescue units in preparatory measures for SAR operations",A
+143,"In Volume III of Annex 10, which system is NOT covered in the SARPs and guidance material?
+Options:
+A. Aeronautical telecommunication network (ATN
+B. Aeronautical mobile-satellite service (AMSS
+C. Secondary surveillance radar (SSR
+D. Very high frequency (VHF
+E. Global navigation satellite system (GNSS",A
+144,"Which class of dangerous goods covers materials that are hazardous to human tissue or the structure of an aircraft?
+Options:
+A. Class 3  
+B. Class 6  
+C. Class 7  
+D. Class 8 
+E. Class 9",D
+145,"According to the passage, what is the role of the aeronautical information service (AIS)?
+Options:
+A. To improve the safety of international civil aviation  
+B. To ensure the flow of information necessary for airport maintenance  
+C. To provide uniform and consistent aeronautical information/data  
+D. To define the specifications for rescue and fire fighting services  
+E. To support international air navigation by providing necessary information",A
+146,"What is the purpose of the ADREP system?
+Options:
+A. To store and analyze information on accidents and incidents  
+B. To facilitate the exchange of safety information among Contracting States 
+C. To develop and publish the final report of an investigation  
+D. To promote the establishment of safety information sharing networks  
+E. To determine preventive actions required from safety data analysis",A
+147,"What is the role of air traffic management in aviation safety?
+Options:
+A. To provide flight information and alerting services  
+B. To separate aircraft in controlled airspace  
+C. To maintain an orderly flow of air traffic  
+D. To implement systematic safety management programmes 
+E. To establish flight information centres and air traffic control units",C
+148,"According to the context of the passage, what is the primary responsibility of airline operators?
+Options:
+A. To implement effective complementary security programmes  
+B. To establish national civil aviation security programmes  
+C. To develop and implement security measures compatible with airports  
+D. To protect passengers, assets, and revenues 
+E. To ensure the safety of the general public",A
+149,"What is the ""Alert Phase""?
+Options:
+A. The phase when an aircraft is in distress  
+B. The phase when radio contact with an aircraft is lost and cannot be re-established  
+C. The phase when an aircraft fails to arrive at its destination  
+D. The phase when SAR units are alerted 
+E. The phase when the Rescue Coordination Centre (RCC",A
+150,"Who is entitled to appoint an accredited representative to participate in an investigation?
+Options:
+A. The State in which the accident or incident occurred  
+B. The State of Registry  
+C. The State of Operator  
+D. The State of Manufacture  
+E. The States of Registry, Operator, Design, and Manufacture",A
+151,"What does Annex 16 include?
+Options:
+A. Procedures for aircraft noise measurement  
+B. Human tolerance to aircraft noise  
+C. Aircraft noise certification  
+D. Criteria for aircraft noise abatement procedures  
+E. All of the above",A
+152,"Which type of aircraft is not evaluated based on the effective perceived noise level?
+Options:
+A. Subsonic jet aeroplanes  
+B. Propeller-driven aeroplanes over 5,700 kg  
+C. Supersonic aeroplanes  
+D. Helicopters 
+E. Propeller-driven aeroplanes not exceeding 5,700 kg",A
+153,"Annex 11 defines air traffic services and specifies the worldwide Standards and Recommended Practices applicable in the provision of these services. True or False?
+Options:
+A. True 
+B. False",A
+154,"According to the text, what poses a serious threat to the safety and regularity of civil aviation?
+Options:
+A. Acts of unlawful interference 
+B. Deficiencies in aviation security systems  
+C. Non-operational threats  
+D. The lack of multilateral arrangements  
+E. None of the above",A
+155,"How is aeronautical information handled based on its duration of applicability?
+Options:
+A. It is published indiscriminately with a variety of effective dates  
+B. It remains valid for many years 
+C. It is only valid for a relatively short period of time  
+D. It varies in terms of the number of operators affected  
+E. It may be lengthy or concise depending on its volume",A
+156,"What is the purpose of establishing a quality system and implementing quality management procedures in the aeronautical information/data process?
+Options:
+A. To ensure the safety of air navigation 
+B. To improve aircraft engine emissions  
+C. To reduce aircraft noise near airports  
+D. To increase the glamour of international civil aviation activities  
+E. To provide timely and quality information to users",A
+157,"What types of aeronautical information are included in the integrated aeronautical information package mentioned in Annex 15?
+Options:
+A. Aeronautical Information Publication (AIP
+B. Pre-flight information bulletins (PIB
+C. Aeronautical information circulars (AIC
+D. Lists of valid NOTAM and amendment service  
+E. AIP supplements and lists of valid NOTAM",A
+158,"How many hazard classes are used for all modes of transport?
+Options:
+A. 7  
+B. 8  
+C. 9 
+D. 10  
+E. 11",Z
+159,"Which type of runway is classified in Annex 14 as precision approach runway category II?
+Options:
+A. Non-instrument approach runway  
+B. Non-precision approach runway  
+C. Precision approach runway category I  
+D. Precision approach runway category III  
+E. Takeoff runway",B
+160,"According to Annex 15, what is the role of automated aeronautical information systems?
+Options:
+A. To ensure the timely provision of quality aeronautical information/data  
+B. To distribute specific types of aeronautical information  
+C. To relay important post-flight information from aircrews  
+D. To provide regulations for entry into and transit of airspace  
+E. To provide pre-flight information at each aerodrome/heliport",A
+161,"What is the purpose of Annex 15 in the context of air navigation?
+Options:
+A. To provide regulations for entry into and transit of airspace  
+B. To prevent corrupt or erroneous aeronautical information/data 
+C. To ensure the timely provision of quality aeronautical information/data  
+D. To specify requirements for automated aeronautical information systems  
+E. To distribute specific types of aeronautical information",A
+162,"ANNEX 15 to the Convention on International Civil Aviation refers to:
+Options:
+A. Specifications for the construction and siting of equipment near runways  
+B. Provisions for heliports  
+C. Aeronautical Information Services 
+D. Improving the safety of equipment installed at airports  
+E. Maintenance of airports",A
+163,"When was Annex 17 adopted by the Council?
+Options:
+A. June 1970  
+B. March 1974  
+C. December 2001  
+D. July 2002  
+E. June 1989",A
+164,"What is the objective of the investigation of an aircraft accident or incident?
+Options:
+A. Recovery of the aircraft  
+B. Determination of the causes 
+C. Prosecution of the responsible parties  
+D. Compensation for the victims' families  
+E. Prevention of repeated occurrences",E
+165,"How are changes in facilities, services, or procedures distributed to airline operations manuals and other documents?
+Options:
+A. By using the regulated system AIRAC  
+B. By distributing information with a variety of effective dates  
+C. By relaying important post-flight information from aircrews to the AIS  
+D. By working according to a predetermined schedule of effective dates 
+E. By providing pre-flight information at each aerodrome/heliport",A
+166,"Which of the following is an example of a Class 1 dangerous good?
+Options:
+A. Gasoline  
+B. Lacquers  
+C. Sporting ammunition 
+D. Refrigerated liquid nitrogen  
+E. Pesticides",A
+167,"Which document contains the very detailed and numerous instructions for the correct handling of dangerous cargo?
+Options:
+A. Annex 18  
+B. Security Manual  
+C. Technical Instructions 
+D. Universal Security Audit Programme  
+E. PANS documents",A
+168,"What is the purpose of the panel of experts established in 1976?
+Options:
+A. To develop regulations for the International Atomic Energy Agency  
+B. To meet and recommend revisions to the Technical Instructions  
+C. To ensure the safe transport of dangerous goods by all modes of transport  
+D. To align the regulations of various transport modes  
+E. To enforce the Technical Instructions uniformly",A
+169,"Who has the responsibility for conducting an investigation if the occurrence takes place outside the territory of any State?
+Options:
+A. The State of Occurrence  
+B. The State of Registry  
+C. The State of Manufacture  
+D. The State of Design  
+E. The State of Manufacture, Design, or Registry may conduct the investigation",E
+170,"What does Chapter 7 of Annex 13 address?
+Options:
+A. Incident reporting systems  
+B. Accident prevention measures  
+C. ADREP system 
+D. Safety information sharing networks  
+E. Preliminary and Accident/Incident Data Reports",A
+171,"What does Annex 11 specify regarding the identification of air traffic services routes?
+Options:
+A. They should be referred to using geographical references  
+B. They should be referred to using radio aids 
+C. They should be marked by a radio aid  
+D. They should not be marked by a radio aid  
+E. Both B and C",A
+172,"What is the role of computerized databases in facilitating accident prevention?
+Options:
+A. Storing and analyzing information on accidents and incidents  
+B. Exchanging safety information among Contracting States  
+C. Facilitating the free exchange of information on safety deficiencies  
+D. Providing a non-punitive environment for voluntary reporting of safety hazards  
+E. All of the above",A
+173,"According to Annex 15, who is responsible for providing aeronautical information to civil aviation interests?
+Options:
+A. The operator of the aircraft  
+B. The International Civil Aviation Organization (ICAO
+C. The State where operations will be carried out  
+D. The State with air traffic control responsibilities 
+E. The aviation agencies responsible for maintaining publications",A
+174,"What does Chapter 5 of Annex 13 address?
+Options:
+A. The investigation process  
+B. The responsibilities of the investigator-in-charge  
+C. The handling of flight recorders  
+D. The coordination with judicial authorities  
+E. All of the above",A
+175,"What is the main purpose of Annex 18?
+Options:
+A. To regulate the carriage of dangerous goods by air internationally  
+B. To ensure the safe transport of dangerous goods by air  
+C. To align the rules of air transport with other modes of transport  
+D. To develop legal and technical regulations for aviation security  
+E. To recommend amendments to the Technical Instructions",A
+176,"What has been the trend in adopting emission limits for oxides of nitrogen according to the Council of ICAO?
+Options:
+A. Stricter limits in 1993 and 1999 
+B. Looser limits in 1993 and 1999  
+C. No changes in limits since 1993  
+D. The limits have not been revised by the Council  
+E. The limits are still under consideration",A
+177,"Why is it important to ensure that users receive timely and quality aeronautical information/data?
+Options:
+A. To reduce aircraft noise near airports  
+B. To improve aircraft engine emissions  
+C. To increase the glamour of international civil aviation activities  
+D. To ensure the safety of air navigation 
+E. To comply with Annex 15 requirements",D
+178,"When is the ""Uncertainty Phase"" declared?
+Options:
+A. When an aircraft is in distress  
+B. When radio contact with an aircraft is lost and cannot be re-established 
+C. When an aircraft fails to arrive at its destination  
+D. When a Rescue Coordination Centre (RCC
+E. When SAR units are alerted",A
+179,"What is the purpose of the alerting service?
+Options:
+A. To provide information on surface vessels for flight over water  
+B. To broadcast operational flight information service (OFIS
+C. To establish identification for military aircraft  
+D. To alert rescue coordination centres in case of emergencies 
+E. To specify restrictions to traffic flow",A
+180,"What is a distinguishing feature of Annex 14?
+Options:
+A. It contains specifications for water aerodromes and aerodromes without runways  
+B. It covers a broad range of subjects related to aerodromes 
+C. It is applicable to all airports worldwide  
+D. It is split into two volumes, Volume I and Volume II  
+E. It has rapidly changing provisions due to technological advances",A
+181,"When did the Council of ICAO adopt a more stringent noise standard?
+Options:
+A. 1981  
+B. 1982  
+C. 1993  
+D. 2001 
+E. 2006",E
+182,"What does Chapter 6 of Annex 13 cover?
+Options:
+A. Incident reporting systems  
+B. Accident prevention measures 
+C. ADREP system  
+D. Safety information sharing networks  
+E. Preliminary and Accident/Incident Data Reports",D
+183,"What type of information is provided to IFR flights?
+Options:
+A. Significant meteorological information  
+B. Changes in the condition of aerodromes  
+C. Collision hazards for aircraft operating outside control areas  
+D. Weather conditions at departure, destination and alternate aerodromes  
+E. All of the above",A
+184,"What do Annex 16 of the Convention on International Civil Aviation and the resolution adopted in 1971 have in common?
+Options:
+A. They both address the issue of aircraft noise 
+B. They both address the issue of aircraft engine emissions  
+C. They both address the issue of aircraft noise and aircraft engine emissions  
+D. They both establish quality management procedures  
+E. They both deal with the provision of aeronautical information services",A
+185,"Which volume of Annex 10 contains SARPs and guidance material for voice communication systems used in international civil aviation?
+Options:
+A. Volume I  
+B. Volume II 
+C. Volume III  
+D. Volume IV  
+E. Volume V",A
+186,"Which panel is responsible for recommending revisions to the Technical Instructions?
+Options:
+A. The United Nations Committee of Experts on the Transport of Dangerous Goods  
+B. The International Atomic Energy Agency  
+C. The Council to allow the Technical Instructions  
+D. The ICAO requirements for dangerous goods panel  
+E. A panel of experts established in 1976",A
+187,"How has the need for aeronautical information/data changed with the evolution of CNS/ATM systems?
+Options:
+A. It has become less important for the safety of air navigation  
+B. It is no longer required for pre-flight planning purposes  
+C. It has become more urgent and critical to ensure accuracy and integrity 
+D. It has decreased the reliance on automated aeronautical information systems  
+E. It has reduced the need for amendments to airline operations manuals",C
+188,"According to Volume II of Annex 16, what is the limitation on the intentional venting of raw fuel?
+Options:
+A. No limitation is mentioned  
+B. Only for turbine engine powered aircrafts manufactured before 18 February 1982  
+C. Only for turbine engine powered aircrafts manufactured after 18 February 1982 
+D. Only for subsonic engines manufactured before 1 January 1983  
+E. Only for supersonic engines manufactured after 18 February 1982",A
+189,"What was the purpose of Amendment 7 to Annex 17?
+Options:
+A. To clarify the standards for baggage reconciliation with passengers  
+B. To enhance security controls for commercial courier services  
+C. To introduce new measures for cargo and mail security  
+D. To address challenges posed by the events of 11 September 2001  
+E. All of the above",A
+190,"What does Chapter 8 of Annex 13 recommend regarding safety information sharing networks?
+Options:
+A. Their establishment to facilitate the exchange of information on safety deficiencies 
+B. Their use for storing and analyzing safety data  
+C. Their non-punitive environment for voluntary reporting of safety hazards  
+D. Their reporting requirements for the ADREP system  
+E. Their coverage of incident reporting systems",A
+191,"When did Amendment 10 to Annex 17 become applicable?
+Options:
+A. June 1970  
+B. March 1974  
+C. December 2001  
+D. July 2002 
+E. June 1989",A
+192,"Why was there a change in the focus of ICAO's work regarding aircraft engine emissions?
+Options:
+A. Concerns regarding air quality near airports  
+B. Concerns regarding global atmospheric problems  
+C. Both concerns regarding air quality near airports and global atmospheric problems 
+D. Climate change  
+E. The LTO cycle of operations",A
+193,"What does the term ""clearance"" refer to in air traffic control service?
+Options:
+A. Communication between ATC units  
+B. Transfer of responsibility for control  
+C. Traffic flow restrictions at busy aerodromes  
+D. Longitudinal, vertical or lateral separation between aircraft 
+E. Weather conditions at departure, destination and alternate aerodromes",A
+194,"What is a requirement for States regarding SAR services in their territories and over the high seas?
+Options:
+A. Provide mobile SAR units  
+B. Establish means of communication for rescue units  
+C. Designate other elements of public or private services for SAR activity  
+D. Publish and disseminate all information needed for the entry of rescue units from other states 
+E. Prepare detailed plans of operation for the conduct of SAR operations",A
+195,"How does Annex 14 define the ground environment of an airport?
+Options:
+A. Through radio aids  
+B. Through visual aids 
+C. Through the ADREP system  
+D. Through incident reporting systems  
+E. Through safety information sharing networks",A
+196,"When did the concern about aircraft noise increase significantly?
+Options:
+A. In the early 1960s  
+B. In the 1970s  
+C. In the 1980s  
+D. In the 1990s  
+E. In the 2000s",A
+197,"What is the ""balanced approach to noise management"" endorsed by the ICAO Assembly?
+Options:
+A. Reduction of noise only at source  
+B. Land-use planning only  
+C. Operational measures only  
+D. Operation restrictions only  
+E. Reduction of noise at source, land-use planning, operational measures, and operation restrictions",E
+198,"What do the ICAO requirements for dangerous goods aim to achieve?
+Options:
+A. Safe and smooth transfer of cargo between different transport modes  
+B. International enforcement of regulations  
+C. Compatibility with the regulations of the International Atomic Energy Agency  
+D. All of the above 
+E. None of the above",D
+199,"When was the Security Manual for Safeguarding Civil Aviation Against Acts of Unlawful Interference first published?
+Options:
+A. 1971 
+B. 2002  
+C. 1976  
+D. Late 2002  
+E. It is not specified in the text",A
+200,"What does Annex 12 address?
+Options:
+A. Air traffic control procedures and equipment  
+B. Air-ground communication requirements  
+C. Contingency planning for disruptions in air traffic services  
+D. Search and rescue services 
+E. Guidelines for airspace organization",A
+201,"Which Annex of the Convention on International Civil Aviation deals with the protection of the environment from the effect of aircraft noise and aircraft engine emissions?
+Options:
+A. Annex 1  
+B. Annex 10  
+C. Annex 15  
+D. Annex 16 
+E. Annex 20",A
+202,"What is emphasized in Annex 12 regarding the equipment requirements of rescue units?
+Options:
+A. Giving adequate assistance at the scene of accidents  
+B. Including accident investigation personnel in the rescue units  
+C. Cooperation between SAR services of neighbouring states  
+D. Preparation of detailed plans of operation for SAR operations  
+E. Both A and B",A
+203,"What is the main focus of Annex 17 prior to 1985?
+Options:
+A. Sabotage  
+B. In-flight attack  
+C. Facility attack  
+D. Hijacking 
+E. Commercial courier services",Z
+204,"What is the purpose of Volume I of Annex 16?
+Options:
+A. To prohibit the venting of raw fuels  
+B. To standardize noise evaluation measures 
+C. To limit the emission of smoke from turbo-jet engines  
+D. To limit the emission of carbon monoxide from turbofan engines  
+E. To grant noise certification to aircrafts",A
+205,"Which of the following navigation systems has posed exacting requirements for the quality of aeronautical information/data?
+Options:
+A. Communications and Navigation systems  
+B. Area Navigation (RNAV
+C. Required Navigation Performance (RNP
+D. Airborne computer-based navigation systems  
+E. All of the above",E
+206,"What is the purpose of the Universal Security Audit Programme?
+Options:
+A. To identify deficiencies in aviation security systems  
+B. To improve the legal framework for aviation security  
+C. To provide feedback on the provisions in Annex 17  
+D. All of the above 
+E. None of the above",A
+207,"Prior to 1985, what was the main threat to civil aviation?
+Options:
+A. Sabotage  
+B. In-flight attack  
+C. Facility attack  
+D. Commercial courier services  
+E. Hijacking",A
+208,"Which of the following is not a pollutant that is limited in Volume II of Annex 16?
+Options:
+A. Smoke  
+B. Carbon monoxide  
+C. Unburned hydrocarbons  
+D. Nitrogen oxides  
+E. Raw fuel",E
+209,"What is the principal document giving direction on the establishment of security measures?
+Options:
+A. Annex 18  
+B. Security Manual  
+C. Technical Instructions  
+D. Universal Security Audit Programme  
+E. Annex 17",A
+210,"What committee was established to assist ICAO in the development of noise certification requirements for different classes of aircraft?
+Options:
+A. Committee on Aircraft Noise (CAN
+B. Committee on Aircraft Engine Emissions (CAEE
+C. Committee on Aircraft Safety  
+D. Committee on Air Traffic Control  
+E. Committee on Aviation Glamour",A
+211,"Who is responsible for reviewing and maintaining Annex 17?
+Options:
+A. Air Navigation Commission  
+B. Air Transport Committee  
+C. Committee on Unlawful Interference  
+D. Aviation Security (AVSEC
+E. Council of the International Civil Aviation Organization (ICAO)",A
+212,"Which organizations are represented in the Aviation Security (AVSEC) Panel?
+Options:
+A. Airports Council International (ACI
+B. International Air Transport Association (IATA
+C. International Federation of Airlines Pilots Association (IFALPA
+D. International Criminal Police Organization (ICPO-INTERPOL
+E. All of the above",A
+213,"According to Annex 10, what does Volume V contain information on?
+Options:
+A. Radio spectrum planning for all radio service users  
+B. Utilization of aeronautical frequencies 
+C. Technical characteristics of ACAS  
+D. Standards and recommended practices for radio navigation aids  
+E. Procedures for air navigation services",A
+214,"What are the three distinct phases that categorize emergency situations?
+Options:
+A. Response Phase, Recovery Phase, Prevention Phase  
+B. Uncertainty Phase, Distress Phase, Alert Phase 
+C. Preparation Phase, Investigation Phase, Evaluation Phase  
+D. Analysis Phase, Action Phase, Coordination Phase  
+E. Precaution Phase, Intervention Phase, Resolution Phase",A
+215,"Within which regions are air traffic services provided?
+Options:
+A. Flight Information Routes (FIRs
+B. Air Traffic Information Centers  
+C. International Airspace  
+D. Control Zones  
+E. Flight Information Regions (FIRs",A
