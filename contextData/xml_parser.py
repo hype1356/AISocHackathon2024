@@ -8,6 +8,7 @@ tree4 = ET.parse("./contextData/vol4.xml")
 tree5 = ET.parse("./contextData/vol5.xml")
 
 output = open("./contextData/output", "w")
+alphaNum = "[A-Za-z0-9]"
 
 new_root = ET.Element("combined_data")
 
@@ -19,9 +20,12 @@ tree = ET.ElementTree(new_root)
 
 target_section = tree.xpath("//SECTION")
 def prettyToString(section):
-    str2 = re.sub(r"(^\s+)|(\n)", "", ET.tostring(section, encoding="unicode", method="text"))
-    str1 = re.sub(r"\s{2,}", " ", str2)
-    str = re.sub(r"\[.*?\]", "", str1)
+    str3 = re.sub(r"(^\s+)|(\n)", "", ET.tostring(section, encoding="unicode", method="text")) #remove leading whitespace and new lines
+    str2 = re.sub(r"\s{2,}", " ", str3) #replace >2 whitespace with 1 whitespace
+    if(re.search("\[Reserved", str2)): #remove reserved rules
+        return ""
+    str1 = re.sub(r"\[.*?\]", "", str2) #remove []
+    str = re.sub(r"\s+$", "", str1) #trailing whitespace
     return str
 
 #TEMP TO DELETE
@@ -50,4 +54,9 @@ oneTwo(target_section[1])
 
 for section in target_section[2:]:
     str = prettyToString(section)
+    if(str == ""):
+        continue
+    r = re.search(f"^\§*\s*{alphaNum}+\.{alphaNum}+\s*(\–\s*{alphaNum}+\.{alphaNum}+)?$", str)
+    if(r):
+        continue
     output.write(str + "\n")
