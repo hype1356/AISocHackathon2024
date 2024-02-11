@@ -8,7 +8,7 @@ sentences = []
 for l in file_input:
   sentences.append(l)
 
-model = SentenceTransformer('sentence-transformers/all-MiniLM-L12-v2')
+model = SentenceTransformer('sentence-transformers/all-mpnet-base-v2')
 embeddings = model.encode(sentences, show_progress_bar=True)
 
 np.save(filename + '_embeddings', embeddings)
