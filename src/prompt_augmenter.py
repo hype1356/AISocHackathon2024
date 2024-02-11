@@ -1,10 +1,14 @@
 from sentence_transformers import SentenceTransformer, util
 import numpy as np
+import webscraper
   
 def get_context(query, filename, top_k=5):
   model = SentenceTransformer('sentence-transformers/all-MiniLM-L12-v2')
+#   scrapedFromOnline = webscraper.scrapeInformation(query)
+#   scrapedEmbeddings = model.encode(scrapedFromOnline)
   file_input = open(filename, 'r')
-  embeddings = np.load(filename + "_embeddings.npy")
+  embeddings = np.load(filename + "_embeddings.npy") # np.concatenate([np.load(filename + "_embeddings.npy"), scrapedEmbeddings], axis=1)
+  #allContext = file_input + "\n" + scrapedFromOnline
   information = []
 
   for l in file_input:
@@ -26,4 +30,3 @@ def get_context(query, filename, top_k=5):
   # most_relevant_contexts = [information[idx] for idx in top_context_indices]
 
   # return ' '.join(most_relevant_contexts)
-  
