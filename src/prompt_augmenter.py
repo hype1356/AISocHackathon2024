@@ -5,7 +5,6 @@ def get_context(query, filename, top_k=5):
   model = SentenceTransformer('sentence-transformers/all-MiniLM-L12-v2')
   file_input = open(filename, 'r')
   embeddings = np.load(filename + "_embeddings.npy")
-  print(embeddings.ndim)
   information = []
 
   for l in file_input:

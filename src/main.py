@@ -48,7 +48,10 @@ def getContext(question, k=5):
 # C. Boom microphone
 def getPrompt(i, k=5):
     preprompt = f"""
-[INST] You are a professional pilot with lots of aviation experience.
+[INST] You are a professional pilot with aviation knowledge.
+
+Here is context to help:
+{getContext(questionStatement[i], k)}
 
 [/INST]
 """
@@ -56,14 +59,14 @@ def getPrompt(i, k=5):
     
 Choose the most suitable response to answer the question.
 
-Do not explain your answer.
+Start your response with 'A', 'B', 'C', 'D', 'E'.
+
+Use 'Z' to represent none of the answers.
 
 """ + questionStatement[i]
     for key in answers[i]:
         prompt += f"\n{key}: {answers[i][key]}"
-    prompt += f""" [\INST] 
-Here is context to help:
-[CONTEXT] {getContext(questionStatement[i], k)}"""
+    prompt += f""" [\INST] """
     # print(preprompt + prompt)
     return (preprompt, prompt)
 
@@ -72,19 +75,17 @@ output = []#['C', 'C', 'A', 'C', 'A', 'C', 'A', 'A', 'C', 'A', 'C', 'A', 'A', 'A
 #           ['C', 'C', 'A', 'C', 'A', 'C', 'A', 'A', 'C', 'A', 'C', 'A', 'A', 'A', 'A', 'A', 'B', 'A', 'A', 'A', 'B', 'A', 'C', 'A', 'A', 'A', 'A', 'B', 'A', 'A', 'B', 'A', 'B', 'A', 'A', 'A', 'C', 'B', 'A', 'B', 'B', 'B', 'A', 'A', 'B', 'A', 'A', 'A', 'C', 'C', 'A', 'B', 'A', 'C', 'B', 'C', 'A', 'A', 'B', 'B', 'C', 'B', 'A', 'A', 'A', 'B', 'C', 'C', 'C', 'B', 'C', 'A', 'C', 'A', 'C', 'A', 'A', 'A', 'C', 'A', 'C', 'A', 'A', 'A', 'A', 'B', 'A', 'C', 'A', 'B', 'A', 'A', 'C', 'A', 'B', 'A', 'B', 'B', 'C', 'A'] 0.56
           # ['B', 'C', 'C', 'C', 'C', 'C', 'A', 'A', 'C', 'A', 'A', 'A', 'C', 'B', 'A', 'B', 'B', 'A', 'B', 'A', 'C', 'A', 'A', 'B', 'B', 'A', 'A', 'B', 'A', 'A', 'B', 'A', 'B', 'A', 'A', 'A', 'C', 'B', 'A', 'A', 'B', 'B', 'A', 'A', 'A', 'A', 'B', 'A', 'C', 'C', 'A', 'B', 'A', 'C', 'A', 'A', 'A', 'A', 'C', 'B', 'A', 'B', 'A', 'A', 'B', 'A', 'A', 'C', 'C', 'B', 'C', 'A', 'C', 'A', 'A', 'A', 'A', 'A', 'C', 'A', 'A', 'A', 'A', 'A', 'A', 'B', 'B', 'B', 'A', 'A', 'A', 'A', 'A', 'A', 'C', 'A', 'B', 'A', 'C', 'C'] 0.57
 #           ['B', 'C', 'C', 'C', 'A', 'C', 'A', 'A', 'C', 'A', 'C', 'A', 'A', 'A', 'A', 'A', 'B', 'A', 'A', 'A', 'C', 'A', 'C', 'A', 'C', 'A', 'A', 'B', 'A', 'A', 'B', 'A', 'B', 'A', 'A', 'A', 'C', 'B', 'A', 'C', 'B', 'B', 'A', 'A', 'B', 'A', 'B', 'A', 'C', 'C', 'A', 'B', 'A', 'C', 'B', 'A', 'A', 'A', 'C', 'A', 'C', 'B', 'A', 'A', 'C', 'A', 'A', 'C', 'A', 'B', 'C', 'A', 'C', 'A', 'C', 'B', 'A', 'A', 'C', 'A', 'B', 'A', 'C', 'A', 'A', 'C', 'B', 'B', 'A', 'A', 'A', 'A', 'C', 'A', 'C', 'A', 'A', 'A', 'C', 'A'] 0.6
-for i in range(0, 1):
+#           ['B', 'C', 'A', 'C', 'A', 'C', 'A', 'A', 'C', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'C', 'A', 'C', 'A', 'B', 'A', 'A', 'B', 'A', 'A', 'B', 'A', 'A', 'A', 'A', 'A', 'C', 'B', 'A', 'A', 'A', 'A', 'A', 'A', 'C', 'A', 'A', 'A', 'C', 'C', 'A', 'B', 'A', 'C', 'A', 'A', 'A', 'A', 'C', 'A', 'A', 'B', 'A', 'A', 'B', 'A', 'A', 'C', 'A', 'B', 'C', 'A', 'A', 'A', 'C', 'A', 'A', 'A', 'C', 'A', 'B', 'A', 'A', 'A', 'A', 'A', 'B', 'C', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'C', 'A']
+#           ['B', 'C', 'A', 'C', 'A', 'A', 'A', 'A', 'C', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'B', 'A', 'A', 'A', 'C', 'A', 'C', 'A', 'A', 'A', 'A', 'B', 'A', 'Z', 'B', 'A', 'B', 'A', 'A', 'A', 'C', 'B', 'A', 'A', 'B', 'B', 'A', 'A', 'C', 'Z', 'A', 'A', 'C', 'A', 'A', 'B', 'A', 'C', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'B', 'A', 'A', 'A', 'A', 'A', 'C', 'A', 'B', 'A', 'A', 'A', 'A', 'C', 'A', 'A', 'A', 'C', 'A', 'B', 'A', 'A', 'A', 'A', 'Z', 'A', 'C', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'C', 'A', 'A', 'A', 'C', 'C', 'A', 'A', 'C', 'A', 'A', 'C', 'A', 'A', 'A', 'B', 'A', 'A', 'D', 'B', 'A', 'A', 'D', 'A', 'A', 'A', 'A', 'B', 'A', 'A', 'A', 'E', 'A', 'A', 'C', 'A', 'E', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'D', 'A', 'A', 'C', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'Z', 'B', 'A', 'A', 'A', 'A', 'E', 'A', 'A', 'A', 'A', 'E', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'D', 'A', 'A', 'A', 'E', 'D', 'A', 'A', 'A', 'A', 'C', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'A', 'E', 'D', 'A', 'A', 'A', 'A', 'Z', 'A', 'E', 'A', 'A', 'E', 'A', 'A', 'A', 'A', 'A', 'A', 'A']
+for i in range(0, 216): # total is 216
     (preprompt, prompt) = getPrompt(i)
     output.append(lmQuery(preprompt, prompt))
 def lambdaFunc(x):
-    r = re.search("([A-C])\:", x)
+    r = re.search("([A-E])\:", x)
     if(r):
         return r.group(1)
     else:
-        r1 = re.search("([A-C])", x)
-        if(r1):
-            return r1.group(1)
-        else:
-            return "A"
+        return "Z"
 
 
 print(output)
@@ -107,4 +108,4 @@ output = list(map(lambda x : lambdaFunc(x), output))
 #         else:
 #             output[i] = "B"
 print(output)
-# csv_output.writeCSV(output)
+csv_output.writeCSV(output)
