@@ -3,7 +3,7 @@
 Options:
 A. Handheld microphone
 B. Area microphone
-C. Boom microphone",C
+C. Boom microphone",B
 1,"What is the required color of the recorder container according to 14 CFR 23.1457?
 Options:
 A. White
@@ -13,7 +13,7 @@ C. Orange",C
 Options:
 A. The cockpit voice recorder and flight data recorder must be installed together in the same container.
 B. The cockpit voice recorder must remain powered for at least 20 minutes after crash impact.
-C. The recorder container must have an underwater locating device if required by the operating rules",A
+C. The recorder container must have an underwater locating device if required by the operating rules",C
 3,"Which of the following sources need to be recorded on a separate channel according to 14 CFR 23.1457?
 Options:
 A. Second pilot station handheld microphone
@@ -103,7 +103,7 @@ C. 10 consecutive hours of duty.",A
 Options:
 A. Airplane Flight Manual.
 B. Pilot`s Emergency Procedures Handbook.
-C. Certificate holder`s manual.",B
+C. Certificate holder`s manual.",C
 21,"What is the name of an area beyond the end of a runway which does not contain obstructions and can be considered when calculating takeoff performance of turbine-powered aircraft?
 Options:
 A. Stopway.
@@ -123,7 +123,7 @@ C. 3/4 SM.",A
 Options:
 A. The most direct route to the filed alternate airport.
 B. The route filed in the flight plan.
-C. An off-airway route to the point of departure.",A
+C. An off-airway route to the point of departure.",C
 25,"KFTW UA/OV DFW/TM 1645/FL100/TP PA30/SK SCT031-TOP043/BKN060-TOP085/OVC097-TOPUNKN/WX FV00SM RA/TA 07. This pilot report to Fort Worth (KFTW) indicates
 Options:
 A. the aircraft is in light rain.
@@ -198,7 +198,7 @@ C. Small amounts of alcohol in the human system increase judgment and decision-m
 Options:
 A. 19,800 feet.
 B. 22,200 feet.
-C. 21,600 feet.",B
+C. 21,600 feet.",C
 40,"An airport may not be qualified for alternate use if
 Options:
 A. the airport has AWOS-3 weather reporting.
@@ -233,7 +233,7 @@ C. 6,100 pounds.",A
 Options:
 A. 0.057%.
 B. 0.062%.
-C. 0.034%.",A
+C. 0.034%.",B
 47,"Each person operating an aircraft equipped with ADS-B Out must operate it in the transmit mode
 Options:
 A. at all times unless otherwise authorized by the FAA or directed by ATC.
@@ -278,7 +278,7 @@ C. Flight engineers",B
 Options:
 A. To improve safety in civil aviation operations
 B. To keep international licensing standards in line with current practices
-C. To increase international recognition and acceptance of personnel qualifications",C
+C. To increase international recognition and acceptance of personnel qualifications",A
 56,"What information do aerodrome forecasts include?
 Options:
 A. Surface wind, visibility, weather, and cloud
@@ -293,12 +293,12 @@ C. 3 hours",A
 Options:
 A. To maintain international aerodromes
 B. To issue warnings of hazardous weather conditions
-C. To prepare weather forecasts for aircraft in flight",B
+C. To prepare weather forecasts for aircraft in flight",C
 59,"What types of weather conditions do meteorological watch offices issue warnings for?
 Options:
 A. Snowstorms and wind shear
 B. Thunderstorms and tropical cyclones
-C. Upper winds and upper-air temperatures",B
+C. Upper winds and upper-air temperatures",A
 60,"How are aircraft observations of winds and temperatures transmitted?
 Options:
 A. Using air-ground data link communications
@@ -323,17 +323,17 @@ C. Only with human intervention",A
 Options:
 A. Any weather condition other than those permitting visual flight
 B. Clear skies with unlimited visibility
-C. Cloudy skies with limited visibility",A
+C. Cloudy skies with limited visibility",C
 65,"When can an aircraft be flown under visual flight rules (VFR)?
 Options:
 A. Only in specific portions of the airspace and at low altitudes
 B. When a flight crew is able to remain clear of clouds by a distance of at least 1,500 m horizontally and 300 m vertically, with a forward visibility of at least 8 km
-C. At night or above 6,100 m (20,000 ft), with special permission",B
+C. At night or above 6,100 m (20,000 ft), with special permission",A
 66,"What information must be provided in a flight plan?
 Options:
 A. All of the above
 B. The aircraft's identity and equipment
-C. The destination and estimated time of arrival",C
+C. The destination and estimated time of arrival",A
 67,"What is the principle that pilots must follow to avoid collisions in visual flight conditions?
 Options:
 A. Giving way to airships, gliders, and balloons
@@ -343,7 +343,7 @@ C. See-and-avoid",C
 Options:
 A. Alter heading to the right
 B. Maintain their current course and speed
-C. The aircraft on the right must give way to the other aircraft",C
+C. The aircraft on the right must give way to the other aircraft",A
 69,"Which type of flight is kept separated by air traffic control units or provided with collision hazard information?
 Options:
 A. Flights operating under visual flight rules (VFR)
@@ -378,7 +378,7 @@ C. To facilitate the transition from en-route phase to final approach phase.",C
 Options:
 A. When more detail is required about the area around the aerodrome of intended landing.
 B. When complying with departure and arrival procedures.
-C. When flights cross extensive oceanic and sparsely settled areas.",A
+C. When flights cross extensive oceanic and sparsely settled areas.",B
 76,"What type of information does the Instrument Approach Chart - ICAO provide?
 Options:
 A. Graphic presentation of instrument approach and missed approach procedures.
@@ -403,7 +403,7 @@ C. It has increased the complexity of navigation systems.",A
 Options:
 A. Litre, degree Celsius, degree for measuring plane angle
 B. Metre, kilogram, second
-C. Nautical mile, knot, foot",C
+C. Nautical mile, knot, foot",B
 81,"According to the Annex 5, when is it necessary to retain the use of foot as a unit of measurement?
 Options:
 A. When measuring altitude, elevation, or height
@@ -413,7 +413,7 @@ C. When measuring weight",A
 Options:
 A. Temporary non-SI units
 B. A new definition of the metre
-C. A new definition of the litre",A
+C. A new definition of the litre",C
 83,"When was the first edition of the ICAO Annex 7 issued?
 Options:
 A. 1946
@@ -428,17 +428,17 @@ C. Definitions related to joint operating organizations",A
 Options:
 A. An additional fee
 B. An English translation if issued in a different language
-C. A photograph of the aircraft",B
+C. A photograph of the aircraft",C
 86,"What are the standards described in the Annex for regarding the use of letters, numbers, and other symbols in the nationality and registration marks?
 Options:
 A. They are determined by the ITU
 B. They are set by the ICAO Contracting States
-C. They are not specified in the Annex",A
+C. They are not specified in the Annex",B
 87,"Where should the identification plate with the aircraft's nationality or common mark and registration mark be affixed?
 Options:
 A. Inside the cockpit
 B. In a prominent position on the main entrance
-C. On the tail of the aircraft",C
+C. On the tail of the aircraft",B
 88,"According to the ICAO Annex 7, how many amendments have been made to the Annex since its first adoption?
 Options:
 A. Two
@@ -448,7 +448,7 @@ C. Three",A
 Options:
 A. Both first and second sessions
 B. First session only
-C. Second session only",B
+C. Second session only",A
 90,"Why was the second amendment introduced to the Annex in 1968?
 Options:
 A. To redefine the word 'aircraft'
@@ -473,7 +473,7 @@ C. Ensuring flight crew rest periods",A
 Options:
 A. Operator's approval of aircraft type
 B. Maintenance and mass and load distribution requirements
-C. Take-off and landing speeds under various conditions",B
+C. Take-off and landing speeds under various conditions",C
 95,"What does Part II of Annex 6 specifically address?
 Options:
 A. International commercial air transport
@@ -483,12 +483,12 @@ C. International general aviation operations in helicopters",A
 Options:
 A. General aviation aircraft may not meet the same standard as commercial transport aircraft
 B. General aviation operations are subject to less rigorous standards and conducted with a greater degree of freedom
-C. International rules and regulations are less rigorous for general aviation",B
+C. International rules and regulations are less rigorous for general aviation",A
 97,"What is the purpose of Part II of Annex 6?
 Options:
 A. To establish safety standards for international general aviation
 B. To ensure safety for third parties in operations involving general aviation and commercial aircraft
-C. To regulate commercial aviation operations",B
+C. To regulate commercial aviation operations",A
 98,"What are the standards and recommended practices accepted by all Contracting States in Annex 6 mainly focused on?
 Options:
 A. Aircraft maintenance and performance
