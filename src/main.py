@@ -6,7 +6,7 @@ import prompt_augmenter
 
 #URL for server with LM
 url = "http://10.147.17.182:6420/v1/chat/completions"
-
+alphaNum = "[A-Za-z0-9]"
 #Query the LM with a preprompt and a prompt
 def lmQuery(preprompt, prompt):
     data = { 
@@ -24,6 +24,20 @@ def lmQuery(preprompt, prompt):
     
 (questionStatement, answers) = csv_parser.csvRead()
 
+def getContext(question):
+    r = re.search(rf"({alphaNum}+\.{alphaNum}+)", question)
+    if(r):
+        context = []
+        file = open("./contextData/output", "r")
+        for line in file.readlines():
+            r1 = re.search(rf"({alphaNum}+\.{alphaNum}+)", line)
+            if(r1 and r1.group(1) == r.group(1)):
+                print("MATCH")
+                context.append(line)
+        return ' '.join(context)
+    else:
+        return prompt_augmenter.get_context(questionStatement[i], "./contextData/output")
+
 # So for instance the following:
 # What type of microphone must be installed to meet the recording requirements of paragraph (a)(2) of 14 CFR 23.1457?
 # Options:
@@ -36,7 +50,7 @@ def getPrompt(i):
 [INST] You need to pick the most suitable answer from the given options.
 
 Here is context to help: 
-{prompt_augmenter.get_context(questionStatement[i], "./contextData/output")}
+{getContext(questionStatement[i])}
 
 Start your response with the letter of your selection.
 [/INST]
