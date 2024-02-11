@@ -19,8 +19,9 @@ tree = ET.ElementTree(new_root)
 
 target_section = tree.xpath("//SECTION")
 def prettyToString(section):
-    str1 = re.sub(r"(^\s+)|(\n)", "", ET.tostring(section, encoding="unicode", method="text"))
-    str = re.sub(r"\s{2,}", " ", str1)
+    str2 = re.sub(r"(^\s+)|(\n)", "", ET.tostring(section, encoding="unicode", method="text"))
+    str1 = re.sub(r"\s{2,}", " ", str2)
+    str = re.sub(r"\[.*?\]", "", str1)
     return str
 
 #TEMP TO DELETE
